@@ -16,6 +16,7 @@ import 'package:kiot_map/views/about_screen.dart';
 import '../services/kosMarkers.dart';
 import '../services/map.service.dart';
 import '../utils/image_utils.dart';
+import 'expanded_image.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -367,6 +368,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 );
               },
               icon: const Icon(Icons.info),
+            ),
+            CustomCircularIconButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (c) => const Extended_image(),
+                  ),
+                );
+              },
+              icon: const Icon(Icons.explore_rounded),
             ),
             const SizedBox(
               height: 10,

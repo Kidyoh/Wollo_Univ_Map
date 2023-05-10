@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:kiot_map/views/expanded_image.dart';
 import 'package:kiot_map/views/home_screen.dart';
 
 import 'views/splash_screen.dart';

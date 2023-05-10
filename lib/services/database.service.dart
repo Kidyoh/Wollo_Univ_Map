@@ -127,6 +127,8 @@ class DatabaseService {
       // todo: add the remaining data
     ];
 
+    
+
     return kiotPlaces;
   }
 }
