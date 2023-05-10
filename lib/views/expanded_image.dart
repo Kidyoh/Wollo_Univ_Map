@@ -222,17 +222,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
           ),
-          Positioned(
-            bottom: 16,
-            left: 16,
-            child: TextButton(
-              onPressed: () {
-                // launch a new page with url on web
-                launchUrlString('https://victorofvalencia-blog.tumblr.com/');
-              },
-              child: const Text('Photos from Victor of Valencia on tumblr'),
-            ),
-          ),
         ],
       ),
     );
